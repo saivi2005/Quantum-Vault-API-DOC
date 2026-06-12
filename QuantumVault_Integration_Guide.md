@@ -1,6 +1,6 @@
-# QuantumVault — Integration Guide
+# QuantumVault - Integration Guide
 
-> Post-Quantum Cryptography as a Service — for developers and architects building quantum-safe systems today.
+> Post-Quantum Cryptography as a Service - for developers and architects building quantum-safe systems today.
 
 #### Table of Contents
 
@@ -10,7 +10,7 @@
   - [System Overview](#system-overview)
   - [Identity Model](#identity-model)
   - [Request Security Model](#request-security-model)
-- [Quick Start — 5 Steps to First API Call](#quick-start--5-steps-to-first-api-call)
+- [Quick Start - 5 Steps to First API Call](#quick-start--5-steps-to-first-api-call)
 - [Core Concepts](#core-concepts)
   - [PQC Keys](#pqc-keys)
   - [Authentication Keys](#authentication-keys)
@@ -20,7 +20,7 @@
   - [Base URL](#base-url)
   - [Required Headers](#required-headers)
   - [Request Body Structure](#request-body-structure)
-  - [Request Signing — How It Works](#request-signing--how-it-works)
+  - [Request Signing - How It Works](#request-signing--how-it-works)
   - [Signing with ML-DSA (Recommended)](#signing-with-ml-dsa-recommended)
   - [Signing with ECDSA](#signing-with-ecdsa)
   - [Signing with RSA](#signing-with-rsa)
@@ -28,10 +28,10 @@
 - [Cryptographic Operations](#cryptographic-operations)
   - [Sign Data](#sign-data)
   - [Verify Signature](#verify-signature)
-  - [Encapsulate — KEM](#encapsulate--kem)
-  - [Decapsulate — KEM](#decapsulate--kem)
-  - [Encrypt — AES-GCM](#encrypt--aes-gcm)
-  - [Decrypt — AES-GCM](#decrypt--aes-gcm)
+  - [Encapsulate - KEM](#encapsulate--kem)
+  - [Decapsulate - KEM](#decapsulate--kem)
+  - [Encrypt - AES-GCM](#encrypt--aes-gcm)
+  - [Decrypt - AES-GCM](#decrypt--aes-gcm)
 - [Operation Chaining](#operation-chaining)
   - [Sign → Verify](#sign--verify)
   - [Encapsulate → Decapsulate](#encapsulate--decapsulate)
